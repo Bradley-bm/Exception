@@ -1,5 +1,5 @@
-bill = 2.50
-paid = 4.00
+bill = int(input("Enter the bill amount: "))
+paid = int(input("Enter the amount paid: "))
 while True:
     if bill < 0 or paid < 0:
         print("Invalid amount.")
